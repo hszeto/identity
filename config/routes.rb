@@ -1,6 +1,8 @@
 Rails.application.routes.draw do
+  devise_for :users, ActiveAdmin::Devise.config
+  ActiveAdmin.routes(self)
+
   use_doorkeeper
-  devise_for :users
 
   get '/', to: 'home#index', as: :home
 
