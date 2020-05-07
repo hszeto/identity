@@ -78,7 +78,7 @@ GEM
       railties (>= 4.1.0)
       responders
       warden (~> 1.2.3)
-    doorkeeper (5.3.1)
+    doorkeeper (5.3.2)
       railties (>= 5)
     erubi (1.9.0)
     execjs (2.7.0)
