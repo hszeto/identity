@@ -83,3 +83,4 @@ production:
   database: Identity_production
   username: Identity
   password: <%= ENV['IDENTITY_DATABASE_PASSWORD'] %>
+  url: <%= ENV['DATABASE_URL'] %>
