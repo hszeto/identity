@@ -1,12 +1,12 @@
 databases:
   - name: Identity
-    databaseName: Identity_production
-    user: Identity
+    databaseName: identity_production
+    user: identity
     plan: free
 
 services:
   - type: web
-    name: Identity
+    name: i
     env: ruby
     plan: free
     buildCommand: "./bin/render-build.sh"

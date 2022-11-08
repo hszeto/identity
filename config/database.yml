@@ -80,7 +80,7 @@ test:
 #
 production:
   <<: *default
-  database: Identity_production
-  username: Identity
+  database: identity_production
+  username: identity
   password: <%= ENV['IDENTITY_DATABASE_PASSWORD'] %>
   url: <%= ENV['DATABASE_URL'] %>
