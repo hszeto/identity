@@ -8,5 +8,10 @@
 * `bundle exec rake db:migrate`
 * `bundle exec rails s -p 3000`
 
+## Add a new app
+* visit `/oauth/applications/new`
+* Enter the App Name and Redirect URI
+* Client can use the newly created `Application ID` and `Secret` for OAuth
+
 ### Host
 * Switch from fly.io back to Heroku in Feb 2023
