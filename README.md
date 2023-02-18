@@ -7,3 +7,6 @@
 * `bundle exec rake db:create`
 * `bundle exec rake db:migrate`
 * `bundle exec rails s -p 3000`
+
+### Host
+* Switch from fly.io back to Heroku in Feb 2023
