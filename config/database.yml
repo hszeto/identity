@@ -80,6 +80,6 @@ test:
 #
 production:
   <<: *default
-  database: identity_production
-  username: identity
+  database: Identity_production
+  username: Identity
   password: <%= ENV['IDENTITY_DATABASE_PASSWORD'] %>
