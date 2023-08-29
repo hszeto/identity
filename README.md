@@ -15,3 +15,4 @@
 
 ### Host
 * Switch from fly.io back to Heroku in Feb 2023
+* 08-28-2023: Removed Heroku Postgres to save money. Add it back in "Add-ons" when need to fire up the app again.
